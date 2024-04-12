@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+#cont-section {
+    display: inline-block;
+    gap: 50px;
+}
+
+#cont-jugadores {
+    display: flex;
+    gap: 50px;
+}
+
+#cont-jugador1 {
+    background-color: rgb(25, 67, 254);
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    border-width: 30px;
+    width: 300px;
+    height: 300px;
+    font-size: 56px;
+    text-shadow: 3px 3px 5px;
+}
+
+#cont-jugador2 {
+    background-color: tomato;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    border-width: 30px;
+    width: 300px;
+    height: 300px;
+    font-size: 56px;
+    text-shadow: 3px 3px 5px;
+}
+
+#cont-partida {
+    background-color: yellow;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    border-width: 30px;
+    width: 400px;
+    height: 400px;
+    font-size: 56px;
+    text-shadow: 3px 3px 5px;
+    color: green;
+}
+
+input {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+input:hover {
+    font-size: 40px;
+    background-color: rgb(229, 255, 0);
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 8px;
+    color: black;
+}
+
+#resultado {
+    background-color: aqua;
+}

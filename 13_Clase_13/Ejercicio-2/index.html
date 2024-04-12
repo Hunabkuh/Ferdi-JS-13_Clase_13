@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/JavaScript/12_Clase_12/Ejercicio-1/Img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Dados vienen, dados, van...</title>
+</head>
+<body>
+    <h1>El magistral juego de los dados</h1>
+
+    <section id="cont-section">
+
+        <div id="cont-jugadores">
+            <div id="cont-jugador1">
+                <input id="boton1" type="button" value="Jugador  1" onclick="turnoJugador1()">
+                <div id="resultado1"></div>
+            </div>
+
+            <div id="cont-jugador2">
+                <div>
+                    <input id="boton2" type="button" value="Jugador  2" onclick="turnoJugador2()">
+                </div>
+                <div id="resultado2"></div>
+            </div>
+        </div>
+
+        <div id="cont-partida">
+            <input id="boton3" type="button" value="Ejecutar partida" onclick="ganadorPartida()">
+            <div id="resultado3"></div>
+        </div>
+
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
